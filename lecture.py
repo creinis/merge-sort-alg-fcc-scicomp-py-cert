@@ -232,6 +232,16 @@ def merge_sort(array):
         left_array_index += 1
         sorted_index += 1
 
+# Step 22
+
+# Now, you are going to replicate the same while loop logic for right_part.
+
+# Create a while loop that runs when right_array_index is less than len(right_part), and use the pass keyword 
+# in the body of the loop.
+
+    while right_array_index < len(right_part):
+        pass
+
 
 
 
