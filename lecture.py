@@ -242,6 +242,23 @@ def merge_sort(array):
     while right_array_index < len(right_part):
         pass
 
+# Step 23
+
+# Within the while loop, assign right_part[right_array_index] to array[sorted_index].
+
+# Step 24
+
+# Now, use the += operator to increment right_array_index by 1.
+
+# Step 25
+
+# For the last step in the while loop, increment sorted_index by 1.
+
+    while right_array_index < len(right_part):
+        array[sorted_index] = right_part[right_array_index]
+        right_array_index += 1
+        sorted_index += 1
+
 
 
 
