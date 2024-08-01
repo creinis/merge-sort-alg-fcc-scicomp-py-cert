@@ -275,6 +275,15 @@ def merge_sort(array):
     if len(array) <= 1:
         pass
 
+# Step 27
+
+# Replace the pass keyword within the if statement with a return statement. 
+# This will stop the execution of the merge_sort function when the given condition is true.
+
+def merge_sort(array):
+    if len(array) <= 1:
+        return array
+
 
 
 
