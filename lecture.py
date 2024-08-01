@@ -143,3 +143,13 @@ def merge_sort(array):
         if left_part[left_array_index] < right_part[right_array_index]:
             array[sorted_index] = left_part[left_array_index]
 
+# Step 14
+
+# After assigning the left_part index to the sorted array, increment left_array_index by 1.
+
+        if left_part[left_array_index] < right_part[right_array_index]:
+            array[sorted_index] = left_part[left_array_index]
+            left_array_index += 1
+
+
+
