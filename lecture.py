@@ -191,6 +191,35 @@ def merge_sort(array):
             right_array_index += 1
         sorted_index += 1
 
+# Step 18
+
+# The while loop you created compares one element from left_part with another in right_part, 
+# then adds the smaller element to the main array list.
+
+# It will continue this operation until there are no elements left to be compared. 
+# But left_part may still have elements left while right_part has none, and vice versa.
+
+# Create another while loop to copy the remaining elements in left_part into the array list. 
+# Use left_array_index < len(left_part) for the while condition.
+
+    while left_array_index < len(left_part):
+        pass
+
+# Step 19
+
+# Remove the pass keyword. 
+# For the while loop's code block, assign left_part[left_array_index] to array[sorted_index].
+
+    while left_array_index < len(left_part):
+        array[sorted_index] = left_part[left_array_index]
+
+# Step 20
+
+# Still within the while loop, increment the value of left_array_index by 1.
+
+    while left_array_index < len(left_part):
+        array[sorted_index] = left_part[left_array_index]
+        left_array_index += 1
 
 
 
