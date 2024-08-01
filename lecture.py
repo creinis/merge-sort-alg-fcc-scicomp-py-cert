@@ -172,5 +172,27 @@ def merge_sort(array):
             array[sorted_index] = right_part[right_array_index]
             right_array_index += 1
 
+# Step 17
+
+# The if and else statements you created in the previous steps will assign elements to the sorted array.
+
+# Each element assigned to the sorted array takes up an index in the list. 
+# So you have to move to the next index without an element.
+
+# Below the if/else block, but still within the while loop increment sorted_index by 1. 
+# This should not be in the body of the if or else statement
+
+    while left_array_index < len(left_part) and right_array_index < len(right_part):
+        if left_part[left_array_index] < right_part[right_array_index]:
+            array[sorted_index] = left_part[left_array_index]
+            left_array_index += 1
+        else:
+            array[sorted_index] = right_part[right_array_index]
+            right_array_index += 1
+        sorted_index += 1
+
+
+
+
 
 
