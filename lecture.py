@@ -151,5 +151,26 @@ def merge_sort(array):
             array[sorted_index] = left_part[left_array_index]
             left_array_index += 1
 
+# Step 15
+
+# In a previous step, you assigned the element in the left_part to the array list because it was smaller. 
+# But this will not always be the case. In some comparison cases, the element on the right could be smaller.
+
+# Create an else clause to execute when the left_part index is not less than the right_part index.
+
+# Inside the else block, assign right_part[right_array_index] to array[sorted_index].
+
+# Step 16
+
+# Still within the else block, increment right_array_index by 1.
+
+
+        if left_part[left_array_index] < right_part[right_array_index]:
+            array[sorted_index] = left_part[left_array_index]
+            left_array_index += 1
+        else:
+            array[sorted_index] = right_part[right_array_index]
+            right_array_index += 1
+
 
 
