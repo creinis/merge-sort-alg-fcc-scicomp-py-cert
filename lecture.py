@@ -259,6 +259,22 @@ def merge_sort(array):
         right_array_index += 1
         sorted_index += 1
 
+# Step 26
+
+# Before testing the merge_sort() function, you need to create a base case that stops the function execution 
+# when the length of array is less than or equal to 1.
+
+# This base case will stop the recursion call. 
+# Without it, the merge sort operation would continue to run even when the list has been sorted or has 
+# no element in it.
+
+# Right after the function declaration, create an if statement with this condition: len(array) <= 1. 
+# Use the pass keyword in the function's body.
+
+def merge_sort(array):
+    if len(array) <= 1:
+        pass
+
 
 
 
