@@ -119,6 +119,15 @@ def merge_sort(array):
     while left_array_index < len(left_part) and right_array_index < len(right_part):
         pass
 
+# Step 12
 
+# Within the while loop, replace pass with an if statement that checks if the index of left_part is 
+# less than the index of right_part.
+
+# Use the pass keyword in the body of the if statement.
+
+    while left_array_index < len(left_part) and right_array_index < len(right_part):
+        if left_part[left_array_index] < right_part[right_array_index]:
+            pass
 
 
