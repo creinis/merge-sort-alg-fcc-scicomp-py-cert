@@ -221,6 +221,16 @@ def merge_sort(array):
         array[sorted_index] = left_part[left_array_index]
         left_array_index += 1
 
+# Step 21
+
+# The last thing to do for the while loop is to move to the next index in the sorted array.
+
+# Using the augmented assignment addition operator, add 1 to the value of sorted_index.
+
+    while left_array_index < len(left_part):
+        array[sorted_index] = left_part[left_array_index]
+        left_array_index += 1
+        sorted_index += 1
 
 
 
