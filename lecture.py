@@ -79,6 +79,21 @@ def merge_sort(array):
     right_part = array[middle_point:]
     merge_sort()
 
+# Step 7
+
+# Pass left_part as the argument to the merge_sort() call you added in the last step.
+
+# Step 8
+
+# Call the merge_sort() function again. Do not pass in any argument for now.
+
+# Step 9
+
+# Pass right_part as the argument to the merge_sort() call you added in the last step.
+
+    merge_sort(left_part)
+    merge_sort(right_part)
+
 
 
 
